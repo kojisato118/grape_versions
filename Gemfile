@@ -45,3 +45,8 @@ group :development do
   gem 'spring'
 end
 
+gem 'grape', '~> 0.13.0'
+gem 'grape-jbuilder'
+group :development, :test do
+  gem 'json_expressions'
+end
